@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Employee Suite">
+  <test verbose="2" name="Employee test">
+    <classes>
+      <class name="TestNGTutorial.TestEmployeeDetails"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
